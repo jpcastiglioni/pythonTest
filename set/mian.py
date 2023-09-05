@@ -5,6 +5,7 @@ def main():
         print(number)
 
     numbers = {}
+    
 
     print(type(numbers))
 
