@@ -16,11 +16,12 @@ def recursive_natural_sum(last_number):
 
 
 def main():
-    last_number = int(input('up to which number would you like to calculate the sum?\n- '))
+    str1 = 'up to which number would you like to calculate the sum?\n- '
+    last_number = int(input(str1))
 
     print(natural_sum(last_number))
 
-    last_number = int(input('up to which number would you like to calculate the sum?\n- '))
+    last_number = int(input(str1))
 
     print(recursive_natural_sum(last_number))
 
